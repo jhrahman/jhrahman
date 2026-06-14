@@ -28,7 +28,7 @@
 - 📊 **Monitoring & Logging** →
   ![Datadog](https://img.shields.io/badge/Datadog-632CA6?logo=datadog&logoColor=white)   ![AWS Console](https://img.shields.io/badge/AWS_Console-FF9900?logo=amazonaws&logoColor=white)  
 
-- 🐞 **QA & Automation** →  ![BugBug](https://img.shields.io/badge/BugBug-6029DF?logo=bug&logoColor=white)   ![Manual Testing](https://img.shields.io/badge/Manual_Testing-FF4088?logo=testinglibrary&logoColor=white)  ![Xray Test Management](https://img.shields.io/badge/Xray_Test_Management-2684FF?logo=jira&logoColor=white)
+- 🐞 **QA & Automation** → ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white) ![BugBug](https://img.shields.io/badge/BugBug-6029DF?logo=bug&logoColor=white)   ![Manual Testing](https://img.shields.io/badge/Manual_Testing-FF4088?logo=testinglibrary&logoColor=white)  ![Xray Test Management](https://img.shields.io/badge/Xray_Test_Management-2684FF?logo=jira&logoColor=white)
 
 
 - 🖥️ **System Administration** →    ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)   ![CLI](https://img.shields.io/badge/CLI-000000?logo=gnu-bash&logoColor=white)   ![Shell Scripting](https://img.shields.io/badge/Shell_Scripting-4EAA25?logo=gnubash&logoColor=white)  
@@ -45,7 +45,7 @@
  
 - ⚙️ **Configuration Management** →   ![Ansible](https://img.shields.io/badge/Ansible-000000?logo=ansible&logoColor=white)
 
-- 🗂️ **Version Control** →    ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+- 🗂️ **CI/CD & Version Control** →   ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
 - 🗄️ **Database Management** →  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
   ![psql](https://img.shields.io/badge/psql-336791?logo=postgresql&logoColor=white)
