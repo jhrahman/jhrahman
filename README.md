@@ -1,7 +1,15 @@
 
-## 👋 Hey, I’m Jahidur Rahman  
+<p align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&pause=1500&vCenter=true&repeat=true&width=600&lines=%F0%9F%91%8B+I'm+Jahidur+Rahman" />
+</p>
 
-💡 **SaaS Application Support & QA Engineer** | AWS ☁️ | OTT & Broadcast Ops 📺 | API & Infra Troubleshooter 🔧  
+```console
+> QA Engineer
+> Playwright Automation
+> AWS Infrastructure
+> OTT & Broadcast Technology
+> API Troubleshooting
+``` 
 
 ---
 
@@ -18,7 +26,10 @@
 ⚡ Passion for solving problems, building resilience in SaaS platforms, and ensuring flawless user experiences.  
 🌱 Constantly exploring **DevOps, Cloud & Automation** to level up my skills.  
 
----
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%" />
+</p>
 
 ### 🔹 Tech Stack & Tools  
 
