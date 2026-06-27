@@ -1,0 +1,204 @@
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Bug hunter — Jahidur Rahman QA Automation Engineer</title>
+  <desc>Animated radar banner with live bug detection counter and tech stack</desc>
+
+  <rect width="800" height="300" rx="14" fill="#0d1117"/>
+  <rect width="800" height="300" rx="14" fill="#0F6E56" fill-opacity="0.05"/>
+
+  <!-- radar rings -->
+  <circle cx="158" cy="150" r="122" fill="none" stroke="#1D9E75" stroke-width="0.7" opacity="0.2"/>
+  <circle cx="158" cy="150" r="85"  fill="none" stroke="#1D9E75" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="158" cy="150" r="48"  fill="none" stroke="#1D9E75" stroke-width="0.5" opacity="0.12"/>
+
+  <!-- crosshairs -->
+  <line x1="36"  y1="150" x2="280" y2="150" stroke="#1D9E75" stroke-width="0.5" opacity="0.12"/>
+  <line x1="158" y1="28"  x2="158" y2="272" stroke="#1D9E75" stroke-width="0.5" opacity="0.12"/>
+  <line x1="72"  y1="64"  x2="244" y2="236" stroke="#1D9E75" stroke-width="0.4" opacity="0.06"/>
+  <line x1="244" y1="64"  x2="72"  y2="236" stroke="#1D9E75" stroke-width="0.4" opacity="0.06"/>
+
+  <!-- sweep trails -->
+  <line x1="158" y1="150" x2="280" y2="150" stroke="#1D9E75" stroke-width="24" opacity="0.04">
+    <animateTransform attributeName="transform" type="rotate" from="-36 158 150" to="324 158 150" dur="3.2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="158" y1="150" x2="280" y2="150" stroke="#1D9E75" stroke-width="15" opacity="0.09">
+    <animateTransform attributeName="transform" type="rotate" from="-22 158 150" to="338 158 150" dur="3.2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="158" y1="150" x2="280" y2="150" stroke="#1D9E75" stroke-width="7" opacity="0.2">
+    <animateTransform attributeName="transform" type="rotate" from="-11 158 150" to="349 158 150" dur="3.2s" repeatCount="indefinite"/>
+  </line>
+  <!-- main sweep -->
+  <line x1="158" y1="150" x2="280" y2="150" stroke="#1D9E75" stroke-width="1.8" opacity="0.95">
+    <animateTransform attributeName="transform" type="rotate" from="0 158 150" to="360 158 150" dur="3.2s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- bug 1 — red, outer -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 158 150" to="-360 158 150" dur="3.2s" repeatCount="indefinite"/>
+    <circle cx="256" cy="150" r="5.5" fill="#E24B4A"/>
+    <line x1="252" y1="146" x2="247" y2="141" stroke="#E24B4A" stroke-width="1.2" opacity="0.85"/>
+    <line x1="260" y1="146" x2="265" y2="141" stroke="#E24B4A" stroke-width="1.2" opacity="0.85"/>
+    <line x1="250" y1="150" x2="244" y2="150" stroke="#E24B4A" stroke-width="1.2" opacity="0.85"/>
+    <line x1="262" y1="150" x2="268" y2="150" stroke="#E24B4A" stroke-width="1.2" opacity="0.85"/>
+    <line x1="252" y1="154" x2="247" y2="159" stroke="#E24B4A" stroke-width="1.2" opacity="0.85"/>
+    <line x1="260" y1="154" x2="265" y2="159" stroke="#E24B4A" stroke-width="1.2" opacity="0.85"/>
+  </g>
+  <!-- bug 2 — amber, mid -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="95 158 150" to="-265 158 150" dur="3.2s" repeatCount="indefinite"/>
+    <circle cx="222" cy="150" r="4.5" fill="#EF9F27"/>
+    <line x1="219" y1="147" x2="215" y2="143" stroke="#EF9F27" stroke-width="1.1" opacity="0.85"/>
+    <line x1="225" y1="147" x2="229" y2="143" stroke="#EF9F27" stroke-width="1.1" opacity="0.85"/>
+    <line x1="217" y1="150" x2="212" y2="150" stroke="#EF9F27" stroke-width="1.1" opacity="0.85"/>
+    <line x1="227" y1="150" x2="232" y2="150" stroke="#EF9F27" stroke-width="1.1" opacity="0.85"/>
+    <line x1="219" y1="153" x2="215" y2="157" stroke="#EF9F27" stroke-width="1.1" opacity="0.85"/>
+    <line x1="225" y1="153" x2="229" y2="157" stroke="#EF9F27" stroke-width="1.1" opacity="0.85"/>
+  </g>
+  <!-- bug 3 — pink, inner -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="200 158 150" to="-160 158 150" dur="3.2s" repeatCount="indefinite"/>
+    <circle cx="192" cy="150" r="4" fill="#F09595"/>
+    <line x1="189" y1="147" x2="186" y2="144" stroke="#F09595" stroke-width="1" opacity="0.85"/>
+    <line x1="195" y1="147" x2="198" y2="144" stroke="#F09595" stroke-width="1" opacity="0.85"/>
+    <line x1="188" y1="150" x2="184" y2="150" stroke="#F09595" stroke-width="1" opacity="0.85"/>
+    <line x1="196" y1="150" x2="200" y2="150" stroke="#F09595" stroke-width="1" opacity="0.85"/>
+    <line x1="189" y1="153" x2="186" y2="156" stroke="#F09595" stroke-width="1" opacity="0.85"/>
+    <line x1="195" y1="153" x2="198" y2="156" stroke="#F09595" stroke-width="1" opacity="0.85"/>
+  </g>
+  <!-- bug 4 — purple, mid -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="300 158 150" to="-60 158 150" dur="3.2s" repeatCount="indefinite"/>
+    <circle cx="236" cy="150" r="3.5" fill="#7F77DD"/>
+    <line x1="233" y1="147" x2="230" y2="144" stroke="#7F77DD" stroke-width="1" opacity="0.85"/>
+    <line x1="239" y1="147" x2="242" y2="144" stroke="#7F77DD" stroke-width="1" opacity="0.85"/>
+    <line x1="232" y1="150" x2="228" y2="150" stroke="#7F77DD" stroke-width="1" opacity="0.85"/>
+    <line x1="240" y1="150" x2="244" y2="150" stroke="#7F77DD" stroke-width="1" opacity="0.85"/>
+    <line x1="233" y1="153" x2="230" y2="156" stroke="#7F77DD" stroke-width="1" opacity="0.85"/>
+    <line x1="239" y1="153" x2="242" y2="156" stroke="#7F77DD" stroke-width="1" opacity="0.85"/>
+  </g>
+  <!-- bug 5 — teal, outer -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="155 158 150" to="-205 158 150" dur="3.2s" repeatCount="indefinite"/>
+    <circle cx="250" cy="150" r="4" fill="#5DCAA5"/>
+    <line x1="247" y1="147" x2="243" y2="143" stroke="#5DCAA5" stroke-width="1.1" opacity="0.85"/>
+    <line x1="253" y1="147" x2="257" y2="143" stroke="#5DCAA5" stroke-width="1.1" opacity="0.85"/>
+    <line x1="245" y1="150" x2="240" y2="150" stroke="#5DCAA5" stroke-width="1.1" opacity="0.85"/>
+    <line x1="255" y1="150" x2="260" y2="150" stroke="#5DCAA5" stroke-width="1.1" opacity="0.85"/>
+    <line x1="247" y1="153" x2="243" y2="157" stroke="#5DCAA5" stroke-width="1.1" opacity="0.85"/>
+    <line x1="253" y1="153" x2="257" y2="157" stroke="#5DCAA5" stroke-width="1.1" opacity="0.85"/>
+  </g>
+
+  <!-- detection ping -->
+  <circle cx="158" cy="28" r="0" fill="#1D9E75" opacity="0">
+    <animate attributeName="r"       values="0;0;0;0;5;5;0"           keyTimes="0;0.55;0.60;0.65;0.72;0.85;1" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0;0;1;1;0"           keyTimes="0;0.55;0.60;0.65;0.72;0.85;1" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="158" cy="28" r="0" fill="none" stroke="#1D9E75" stroke-width="1.5" opacity="0">
+    <animate attributeName="r"       values="0;0;0;0;7;22"            keyTimes="0;0.55;0.62;0.65;0.72;1"     dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0;0;0.7;0"           keyTimes="0;0.55;0.62;0.65;0.72;1"     dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- radar center -->
+  <circle cx="158" cy="150" r="7"   fill="#1D9E75"/>
+  <circle cx="158" cy="150" r="3.5" fill="#0d1117"/>
+  <circle cx="158" cy="150" r="1.5" fill="#1D9E75"/>
+
+  <!-- ── RIGHT PANEL ────────────────────────────────── -->
+  <line x1="308" y1="24" x2="308" y2="276" stroke="#1D9E75" stroke-width="0.5" opacity="0.18"/>
+
+  <!-- title -->
+  <text x="328" y="58" font-family="'Courier New',monospace" font-size="24" font-weight="700" fill="#e6edf3" letter-spacing="-0.5">bug hunter</text>
+  <text x="328" y="76" font-family="'Courier New',monospace" font-size="11" fill="#1D9E75">// qa automation engineer</text>
+
+  <line x1="328" y1="88" x2="778" y2="88" stroke="#1D9E75" stroke-width="0.5" opacity="0.25"/>
+
+  <!-- STACK GRID: 4 cols x 2 rows, each card 108w x 46h, gap 10 -->
+  <!-- row 1 -->
+  <!-- Playwright -->
+  <rect x="328" y="98" width="106" height="46" rx="6" fill="#0F6E56" fill-opacity="0.2" stroke="#1D9E75" stroke-width="0.8"/>
+  <text x="338" y="114" font-family="'Courier New',monospace" font-size="11" font-weight="700" fill="#5DCAA5">Playwright</text>
+  <text x="338" y="130" font-family="'Courier New',monospace" font-size="9"  fill="#085041">e2e automation</text>
+
+  <!-- TypeScript -->
+  <rect x="444" y="98" width="106" height="46" rx="6" fill="#185FA5" fill-opacity="0.18" stroke="#378ADD" stroke-width="0.8"/>
+  <text x="454" y="114" font-family="'Courier New',monospace" font-size="11" font-weight="700" fill="#85B7EB">TypeScript</text>
+  <text x="454" y="130" font-family="'Courier New',monospace" font-size="9"  fill="#0C447C">typed scripts</text>
+
+  <!-- CI/CD -->
+  <rect x="560" y="98" width="106" height="46" rx="6" fill="#534AB7" fill-opacity="0.18" stroke="#7F77DD" stroke-width="0.8"/>
+  <text x="570" y="114" font-family="'Courier New',monospace" font-size="11" font-weight="700" fill="#AFA9EC">CI/CD</text>
+  <text x="570" y="130" font-family="'Courier New',monospace" font-size="9"  fill="#3C3489">GitHub Actions</text>
+
+  <!-- Docker -->
+  <rect x="676" y="98" width="102" height="46" rx="6" fill="#185FA5" fill-opacity="0.14" stroke="#378ADD" stroke-width="0.8"/>
+  <text x="686" y="114" font-family="'Courier New',monospace" font-size="11" font-weight="700" fill="#85B7EB">Docker</text>
+  <text x="686" y="130" font-family="'Courier New',monospace" font-size="9"  fill="#0C447C">containers</text>
+
+  <!-- row 2 -->
+  <!-- AWS -->
+  <rect x="328" y="154" width="106" height="46" rx="6" fill="#BA7517" fill-opacity="0.16" stroke="#EF9F27" stroke-width="0.8"/>
+  <text x="338" y="170" font-family="'Courier New',monospace" font-size="11" font-weight="700" fill="#FAC775">AWS</text>
+  <text x="338" y="186" font-family="'Courier New',monospace" font-size="9"  fill="#633806">cloud infra</text>
+
+  <!-- Jira -->
+  <rect x="444" y="154" width="106" height="46" rx="6" fill="#185FA5" fill-opacity="0.16" stroke="#378ADD" stroke-width="0.8"/>
+  <text x="454" y="170" font-family="'Courier New',monospace" font-size="11" font-weight="700" fill="#85B7EB">Jira</text>
+  <text x="454" y="186" font-family="'Courier New',monospace" font-size="9"  fill="#0C447C">issue tracking</text>
+
+  <!-- JMeter -->
+  <rect x="560" y="154" width="106" height="46" rx="6" fill="#993C1D" fill-opacity="0.18" stroke="#D85A30" stroke-width="0.8"/>
+  <text x="570" y="170" font-family="'Courier New',monospace" font-size="11" font-weight="700" fill="#F0997B">JMeter</text>
+  <text x="570" y="186" font-family="'Courier New',monospace" font-size="9"  fill="#712B13">load testing</text>
+
+  <!-- Tech Support -->
+  <rect x="676" y="154" width="102" height="46" rx="6" fill="#0F6E56" fill-opacity="0.14" stroke="#1D9E75" stroke-width="0.8"/>
+  <text x="686" y="170" font-family="'Courier New',monospace" font-size="11" font-weight="700" fill="#5DCAA5">Support</text>
+  <text x="686" y="186" font-family="'Courier New',monospace" font-size="9"  fill="#085041">L2 technical</text>
+
+  <!-- ── INTERACTIVE ELEMENTS ROW ───────────────────── -->
+  <line x1="328" y1="210" x2="778" y2="210" stroke="#1D9E75" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- live dot + scanning label -->
+  <circle cx="340" cy="228" r="5" fill="#1D9E75">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="352" y="233" font-family="'Courier New',monospace" font-size="10" fill="#1D9E75">scanning</text>
+
+  <!-- bugs detected counter — cycles 0→1→2→3→4→5 -->
+  <text x="430" y="224" font-family="'Courier New',monospace" font-size="9" fill="#444441">bugs detected</text>
+  <text x="430" y="237" font-family="'Courier New',monospace" font-size="14" font-weight="700" fill="#E24B4A">
+    <animate attributeName="textContent" values="0;1;2;3;4;5" calcMode="discrete" keyTimes="0;0.16;0.33;0.5;0.66;0.83" dur="9.6s" repeatCount="indefinite"/>0
+  </text>
+
+  <!-- signal strength bars — 4 bars, animated height -->
+  <text x="502" y="224" font-family="'Courier New',monospace" font-size="9" fill="#444441">signal</text>
+  <!-- bar 1 -->
+  <rect x="502" y="238" width="7" height="8" rx="1" fill="#1D9E75" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.2s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+  <!-- bar 2 -->
+  <rect x="513" y="234" width="7" height="12" rx="1" fill="#1D9E75" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="1.2s" begin="0.2s" repeatCount="indefinite"/>
+  </rect>
+  <!-- bar 3 -->
+  <rect x="524" y="230" width="7" height="16" rx="1" fill="#1D9E75" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="1.2s" begin="0.4s" repeatCount="indefinite"/>
+  </rect>
+  <!-- bar 4 -->
+  <rect x="535" y="226" width="7" height="20" rx="1" fill="#1D9E75" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.4;0.9" dur="1.2s" begin="0.6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- status flash — cycles CLEAR → DETECTED → CLEAR -->
+  <text x="562" y="224" font-family="'Courier New',monospace" font-size="9" fill="#444441">status</text>
+  <rect x="562" y="228" width="72" height="18" rx="4" fill="#E24B4A" fill-opacity="0.0">
+    <animate attributeName="fill-opacity" values="0;0;0;0.18;0.18;0;0;0" keyTimes="0;0.55;0.62;0.65;0.85;0.88;0.95;1" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="598" y="241" font-family="'Courier New',monospace" font-size="10" font-weight="700" text-anchor="middle" fill="#444441">
+    <animate attributeName="fill" values="#444441;#444441;#444441;#E24B4A;#E24B4A;#1D9E75;#1D9E75;#444441" keyTimes="0;0.54;0.62;0.65;0.85;0.88;0.96;1" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="textContent" values="CLEAR;CLEAR;CLEAR;DETECTED;DETECTED;CLEAR;CLEAR;CLEAR" calcMode="discrete" keyTimes="0;0.54;0.62;0.65;0.85;0.88;0.96;1" dur="3.2s" repeatCount="indefinite"/>CLEAR
+  </text>
+
+  <!-- footer name -->
+  <text x="778" y="237" font-family="'Courier New',monospace" font-size="9" fill="#444441" text-anchor="end">github.com/jhrahman</text>
+
+</svg>
