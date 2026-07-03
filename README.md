@@ -18,7 +18,7 @@
 
 ---
 <p align="center">
-  <img src="./bug-hunter-banner.svg" width="800"/>
+  <img src="./bug-hunter-banner.svg" width="3000"/>
 </p>
 
 
