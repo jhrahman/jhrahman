@@ -107,7 +107,7 @@
 
   <!-- title -->
   <text x="328" y="58" font-family="'Courier New',monospace" font-size="24" font-weight="700" fill="#e6edf3" letter-spacing="-0.5">bug hunter</text>
-  <text x="328" y="76" font-family="'Courier New',monospace" font-size="11" fill="#1D9E75">// qa automation engineer</text>
+  <text x="328" y="76" font-family="'Courier New',monospace" font-size="11" fill="#1D9E75">// breaking things on purpose</text>
 
   <line x1="328" y1="88" x2="778" y2="88" stroke="#1D9E75" stroke-width="0.5" opacity="0.25"/>
 
