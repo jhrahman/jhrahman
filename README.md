@@ -27,6 +27,7 @@
 ### 🔹 What I Do  
 - 🧪 **Senior SQA Engineer** — 4+ years of experience across software quality assurance, testing, automation, and technical troubleshooting.
 - 🤖 **Test Automation** — building and maintaining Playwright/TypeScript automation with Page Object Model, reusable fixtures, parallel execution, and CI pipelines.
+- 🧠 **AI-Native QA Engineering** — integrating Claude Code and modern AI-assisted workflows into test design, automation development, test analysis, debugging, and quality engineering to accelerate delivery without compromising coverage.
 - 🔍 **Quality Engineering** — functional, regression, exploratory, API, end-to-end, performance, and database testing across web applications.
 - ⚙️ **CI/CD & Test Infrastructure** — working with GitHub Actions, Jenkins, Docker, Allure, Postman, SQL, and modern QA workflows.
 - 🤝 **Cross-functional Engineering** — collaborating with developers, DevOps, and product teams to investigate issues, identify root causes, and improve product quality.
