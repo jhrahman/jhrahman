@@ -25,11 +25,12 @@
 ---
 
 ### 🔹 What I Do  
-- 🛠️ L2 Technical & SaaS Support Engineer — troubleshooting complex application issues across cloud-based SaaS platforms with a focus on root cause analysis and fast resolution.
-- ☁️ AWS & API Troubleshooting — diagnosing infrastructure, authentication, and API-related failures in distributed systems.
-- 🧪 QA & Test Automation — supporting release quality through test case design, regression testing, and automation practices using tools like Playwright/BugBug.
-- 📺 OTT & Streaming Operations Support — ensuring stability of end-to-end OTT workflows, live channel monitoring, and incident resolution.
-- 🤝 Cross-functional Engineering Collaboration — working closely with DevOps, backend engineers, and architects to resolve production issues and improve system reliability.  
+- 🧪 **Senior SQA Engineer** — 4+ years of experience across software quality assurance, testing, automation, and technical troubleshooting.
+- 🤖 **Test Automation** — building and maintaining Playwright/TypeScript automation with Page Object Model, reusable fixtures, parallel execution, and CI pipelines.
+- 🔍 **Quality Engineering** — functional, regression, exploratory, API, end-to-end, performance, and database testing across web applications.
+- ⚙️ **CI/CD & Test Infrastructure** — working with GitHub Actions, Jenkins, Docker, Allure, Postman, SQL, and modern QA workflows.
+- 🤝 **Cross-functional Engineering** — collaborating with developers, DevOps, and product teams to investigate issues, identify root causes, and improve product quality.
+ 
 
 ---
 
